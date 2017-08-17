@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>HUE</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- <link rel="stylesheet" href="css/style.css"/> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style2.css"/>
+    </head>
+    <body class="container">
+
+
+
+
+        <!--    NAV    -->
+        <ul id="my-nav-bar" class="nav nav-pills nav-justified">
+            <li role="presentation" class="active"><a href="testsite.html">MAIN-PAGE</a></li>
+            <li role="presentation"><a href="feedback.html">FEEDBACK</a></li>
+            <li role="presentation"><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+
+
+        <!--  HEADER  -->
+        <header id="header1" class="well page-header">
+            <img class="alignright" src="images/NEURALUX-LOGO-NAVY.png" width="80"/>
+            <div id="headerText">
+                <h1>HUE CONTROLS</h1>
+            </div>
+            <div style="clear: both;"></div>
+        </header>
+
+
+
+        <!--  MAIN  -->
+        <main>
+        <!--    ON OFF    -->
+        <section class="ControlSection well" id="section1" style="text-align: center">
+
+            <section class="headingPlusVideo">
+                <h3 id="h3-on-off">ON/OFF:</h3>
+                <section class="videoSection">
+                    <video height="40" loop autoplay>
+                        <source src="videos/turn-on-off.mp4" type="audio/mp4"/>
+                    </video>
+                </section>
+            </section>
+
+            <div id="btn-grp-on-off" class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button id="on" type="button" class="btn btn-default">On</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="off" type="button" class="btn btn-default">Off</button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <!--COLOR -->
+        <section style="text-align: center" class="ControlSection well" id="section2">
+            <h3>COLOR:</h3>
+
+
+
+            <div id="btn-grp-color" class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button id="red" type="button" class="btn btn-default">Red</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="yellow" type="button" class="btn btn-default">Yellow</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="green" type="button" class="btn btn-default">Green</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="blue" type="button" class="btn btn-default">Blue</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="pink" type="button" class="btn btn-default">Pink</button>
+                </div>
+                <div class="btn-group" role="group"><div>
+                    <button id="white" type="button" class="btn btn-default">White</button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!--   RAINBOW    -->
+        <section style="text-align: center" class="ControlSection well" id="section3">
+            <h3>RAINBOW:</h3>
+
+
+            <div id="btn-grp-rainbow" class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                        <button id="30" type="button" class="btn btn-default">30 Sec</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="60" type="button" class="btn btn-default">60 Sec</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="kill" type="button" class="btn btn-default">Stop</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <!--    BRIGHTNESS    -->
+        <section style="text-align: center" class="ControlSection well" id="section4">
+            <h3>BRIGHTNESS:</h3>
+
+            <div id="btn-grp-rainbow" class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button id="0" type="button" class="btn btn-default">0%</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="25" type="button" class="btn btn-default">25%</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="50" type="button" class="btn btn-default">50%</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="75" type="button" class="btn btn-default">75%</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button id="100" type="button" class="btn btn-default">100%</button>
+                </div>
+
+
+            </div>
+        </section>
+        </main><!--  END-OF-MAIN  -->
+
+
+        <!--    MY-SCRIPT   -->
+        <script src="js/script1.js" type="text/javascript"></script>
+
+    </body>
+</html>
